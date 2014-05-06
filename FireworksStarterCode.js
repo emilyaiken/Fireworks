@@ -1,5 +1,5 @@
 /* This simple firework is made up of four circles, which begin close together in the center of the screen and then move away from each other (to the North, South, East, and West, respectively). While moving, they "burn out" by fading from pink to black. The starter code draws the four pink circles in their starting positions, and the goal of the challenge is to animate them with movement and color changes. One can change the rate of movement or color change by increasing or decreasing values by a larger number.
- */
+*/
 
 var centerX = 200;
 var centerY = 200;
@@ -10,12 +10,13 @@ var yTop = centerY - radius;
 // coordinates of bottom circle
 var xBottom = centerX;
 var yBottom = centerY + radius;
-// coordinates of right cirlce
+// coordinates of right circle
 var xRight = centerX + radius;
 var yRight = centerY;
 // coordinates of left circle
 var xLeft = centerX - radius;
 var yLeft = centerY;
+// RGB values of fill
 var r = 255;
 var g = 2;
 var b = 150;
